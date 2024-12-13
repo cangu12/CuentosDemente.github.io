@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+.header {
+    position: relative;
+    height: 40vh; /* Altura del encabezado */
+    background: url('baner.png') no-repeat center center/cover; /* Usando la imagen subida */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+}
+
+.header .title {
+    position: relative;
+    z-index: 2;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+main {
+    padding: 2rem;
+    background-color: #000000; /* Fondo claro para el resto de la página */
+    text-align: center;
+}
